@@ -3,8 +3,10 @@ from azure.ai.formrecognizer import DocumentAnalysisClient
 
 # Store connection information
 endpoint = "https://aidocumentservices.cognitiveservices.azure.com/"
-key = "d1dddfbb592a488fa49e26d9f67b8ec6"
+key = "d1dddfbb592a488fa49e26d9f67b8ec6" 
+# To be updated with actual values
 
+# file URI must be updated with actual values
 fileUri = "https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence/blob/main/Labfiles/01-prebuild-models/sample-invoice/sample-invoice.pdf?raw=true"
 fileLocale = "en-US"
 fileModelId = "prebuilt-invoice"
